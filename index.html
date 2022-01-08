@@ -1,0 +1,36 @@
+<html>
+<head>
+
+	<title>Object Detection</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body style="background-color: aqua;">
+    <center>
+        <div style="width: 100%; height: 10%; background-color: crimson; margin-top: 0%;" >
+        <h2>AI object finder</h2>
+        <h4>it will only detect when you provide an object that can be found in coco ssd</h4>
+    </div>
+    <br>
+    <br>
+    <h5>input</h5>
+    <input id="input">
+    <br>
+    <br>
+    <button style="background-color: darkcyan;" onclick="start()">Start</button>
+    <br>
+    <h3 style="background-color: darkgoldenrod; width: 10%;">.</h3>
+    <br>
+    <h3 id="stats" style="background-color: darkkhaki; width: 10%;">.</h3>
+    </center>
+</body>
+</html>
